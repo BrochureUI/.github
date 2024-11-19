@@ -45,7 +45,20 @@ The internal world encompasses the operations, partnerships, and resources neces
 
 ## The Workflow
 
-### Structuring The Data
+### The Card Structure
+
+Below is the business card details representing the business metadata that summarizes the business, its important to understand that the landing page goal is to encourage the viewrs to take an action and start interacting with the business, so this goal has to be clear. The `CTA` is an abbreviation for *Call to Action*, this should be the text of main button that takes a certain action, for example: navigating to another page, opening a form, making a call or sending a message. In the example below, `en` represents the English version. If there are multiple languages, provide the same structure under their respective language keys, wrapped within the same object. For example: `ar` for Arabic, `it` for Italian, and so on.
+
+```json
+"en": {
+  "name":"",
+  "slogan":"",
+  "description":"",
+  "CTA":""
+}
+```
+
+### The Model Structure
 
 Below is a basic example of the data structure for each division. This example covers most common use cases, but keep in mind that the keys and structure can be customized to better fit the final view and business requirements. It is recommended to store the data in 10 separate JSON files, each named after the division title. In the example below, `en` represents the English version. If there are multiple languages, provide the same structure under their respective language keys, wrapped within the same object. For example: `ar` for Arabic, `it` for Italian, and so on.
 
