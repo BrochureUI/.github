@@ -181,7 +181,7 @@ Below is a basic example of the data structure for each division. This example c
 ```
 ## The Storage
 
-It is recommended to store the data in JSON files as **Anchor** is only a front-end application that is not supposed to have a database, each file should be named after its division which facilitates the process of updating, storing and deploying. Below the data file system will be illustrated.
+It is recommended to store the data in JSON files, as Anchor is a front-end application that does not require a database. Each file should be named after its corresponding division, which makes the process of updating, storing, and deploying easier. Below is an example of the data file system structure:
 
 ```bash
 .
@@ -200,5 +200,13 @@ It is recommended to store the data in JSON files as **Anchor** is only a front-
     ├── partnerships.json
     └── resources.json
 ```
+
+## The Application
+
+**Anchor** simplifies access to the data by organizing it into JavaScript objects: ***card***, ***audience***, ***bridge***, and ***foundation***. Additionally, it handles toggling between display languages to provide a seamless multilingual experience.
+
+## The Presentation
+
+**Anchor** creates four main components: ***Header***, ***AudienceSection***, ***BridgeSection***, and ***FoundationSection***. The ***Header*** acts as the hero section, which is the first thing the viewer sees, displaying the [card](#the-card-structure) content. Each of the other components then displays the corresponding division data responsively.
 
 ![Logo](https://github.com/BrochureUI/.github/blob/main/BrochureUI.png)
