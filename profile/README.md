@@ -4,11 +4,11 @@
 
 BrochureUI introduces *Anchor*, a concept that transforms business model canvases into compelling, multilingual stories. With fully responsive landing pages and multiple templates, *Anchor* offers a seamless workflow, guiding users from idea to reality, and ensuring a cohesive narrative for your business.
 
-## First, what is a business model
+### First, what is a business model
 
 A business model describes how an organization creates, delivers, and captures value in economic, social, cultural, or other contexts. The model outlines how the business operates, spends, and earns money to generate profit. The process of business model construction and modification is also called business model innovation and forms a part of business strategy.
 
-### It consists of:
+#### It consists of:
 
   1. **Key Partnerships**
      - Strategic collaborations that enhance capabilities, reduce risks, and drive value creation.
@@ -31,11 +31,11 @@ A business model describes how an organization creates, delivers, and captures v
   10. **Social Impact**
       - The positive effects the business creates for society and communities.
 
-## How Anchor perceives it
+### Second, How Anchor perceives it
 
 Anchor perceives the business model as a story of two interconnected worlds: the **internal world**, where the business operates and creates value, and the **external world**, where customers and clients exist. The **bridge** connecting these worlds is formed by the channels that deliver the business’s value to customers and clients.
 
-### The Metaphor
+#### The Metaphor
 
 The internal world encompasses the operations, partnerships, and resources necessary for the business to exist and thrive. The external world focuses on the customer-facing side, where the business engages with clients and generates revenue. The bridge connects internal operations to external audiences, facilitating the communication, delivery, and sustainability of the business’s value.
 
@@ -43,7 +43,7 @@ The internal world encompasses the operations, partnerships, and resources neces
 2. The **external world** is the audience and it consists of **customer/client segments**, **relationships**, and **revenue stream**.
 3. The **bridge** connects both worlds and it consists of **channels**, **value proposition**, and **social impact**.
 
-## The Workflow
+## The Data
 
 ### The Card Structure
 
@@ -60,7 +60,7 @@ Below is the business card details representing the business metadata that summa
 
 ### The Model Structure
 
-Below is a basic example of the data structure for each division. This example covers most common use cases, but keep in mind that the keys and structure can be customized to better fit the final view and business requirements. It is recommended to store the data in 10 separate JSON files, each named after the division title. In the example below, `en` represents the English version. If there are multiple languages, provide the same structure under their respective language keys, wrapped within the same object. For example: `ar` for Arabic, `it` for Italian, and so on.
+Below is a basic example of the data structure for each division. This example covers most common use cases, but keep in mind that the keys and structure can be customized to better fit the final view and business requirements. In the example below, `en` represents the English version. If there are multiple languages, provide the same structure under their respective language keys, wrapped within the same object. For example: `ar` for Arabic, `it` for Italian, and so on.
 
   1. **Key Partnerships**
 ```json
@@ -179,4 +179,26 @@ Below is a basic example of the data structure for each division. This example c
    ]
 }
 ```
+## The Storage
+
+It is recommended to store the data in JSON files as **Anchor** is only a front-end application that is not supposed to have a database, each file should be named after its division which facilitates the process of updating, storing and deploying. Below the data file system will be illustrated.
+
+```bash
+.
+├── card.json
+├── audience
+│   ├── relationships.json
+│   ├── revenue.json
+│   └── segments.json
+├── bridge
+│   ├── channels.json
+│   ├── impact.json
+│   └── offerings.json
+└── foundation
+    ├── activities.json
+    ├── cost.json
+    ├── partnerships.json
+    └── resources.json
+```
+
 ![Logo](https://github.com/BrochureUI/.github/blob/main/BrochureUI.png)
