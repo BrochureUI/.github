@@ -209,4 +209,4 @@ It is recommended to store the data in JSON files, as Anchor is a front-end appl
 
 **Anchor** creates a single page application of four main components: ***Header***, ***AudienceSection***, ***BridgeSection***, and ***FoundationSection***. The ***Header*** acts as the hero section, which is the first thing the viewer sees, displaying the [card](#the-card-structure) content. Each of the other components then displays the corresponding division data responsively.
 
-![Logo](https://github.com/BrochureUI/.github/blob/main/BrochureUI.png)
+![Logo](https://github.com/BrochureUI/assets/blob/main/organizations/BrochureUI.png)
