@@ -31,7 +31,7 @@ A business model describes how an organization creates, delivers, and captures v
   10. **Social Impact**
       - The positive effects the business creates for society and communities.
 
-### Second, How Anchor perceives it
+### Second, how Anchor perceives it
 
 Anchor perceives the business model as a story of two interconnected worlds: the **internal world**, where the business operates and creates value, and the **external world**, where customers and clients exist. The **bridge** connecting these worlds is formed by the channels that deliver the business’s value to customers and clients.
 
@@ -207,6 +207,6 @@ It is recommended to store the data in JSON files, as Anchor is a front-end appl
 
 ## The Presentation
 
-**Anchor** creates four main components: ***Header***, ***AudienceSection***, ***BridgeSection***, and ***FoundationSection***. The ***Header*** acts as the hero section, which is the first thing the viewer sees, displaying the [card](#the-card-structure) content. Each of the other components then displays the corresponding division data responsively.
+**Anchor** creates a single page application of four main components: ***Header***, ***AudienceSection***, ***BridgeSection***, and ***FoundationSection***. The ***Header*** acts as the hero section, which is the first thing the viewer sees, displaying the [card](#the-card-structure) content. Each of the other components then displays the corresponding division data responsively.
 
 ![Logo](https://github.com/BrochureUI/.github/blob/main/BrochureUI.png)
