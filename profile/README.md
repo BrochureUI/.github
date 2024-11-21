@@ -2,7 +2,7 @@
 
 ## Overview
 
-BrochureUI introduces *Anchor*, a concept that transforms business model canvases into compelling, multilingual stories. With fully responsive landing pages and multiple templates, *Anchor* offers a seamless workflow, guiding users from idea to reality, and ensuring a cohesive narrative for your business.
+BrochureUI introduces *Anchor*, a concept that transforms business model canvases into compelling, multilingual stories through a fully responsive landing page, *Anchor* offers a seamless workflow, guiding users from idea to reality, and ensuring a cohesive narrative for your business.
 
 ### First, what is a business model
 
