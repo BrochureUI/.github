@@ -6,7 +6,7 @@
 
 ## What We Build at BrochureUI 🛠️
 
-**BrochureUI** introduces **Anchor**, a concept that transforms **business model canvases** into dynamic, **multilingual stories**. Through fully responsive and visually compelling **landing pages**, Anchor helps businesses communicate their ideas effectively and reach diverse audiences.  
+**BrochureUI** transforms **business model canvases** into dynamic, multilingual stories. Through fully responsive, visually compelling, and **SEO**-friendly **landing pages**. **BrochureUI** helps businesses communicate their ideas effectively and reach diverse audiences.
 
 ### Who We Serve 🌍
 
