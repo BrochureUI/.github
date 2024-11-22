@@ -1,6 +1,10 @@
 # Welcome to BrochureUI 🌟
 
+[![Front-end](https://skillicons.dev/icons?i=html,css,js,vite,react,redux)](https://skillicons.dev)
+
 ## Overview 📋
+
+UI for transforming business ideas into responsive stories. Built with React & Redux, it delivers SEO-friendly, multilingual landing pages.
 
 ---
 
