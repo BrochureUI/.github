@@ -10,9 +10,9 @@
 
 ### Who We Serve 🌍
 
-- Business Entities
-- Artists & Creators
+- Marketing Agencies
 - Startups & Freelancers
+- Artists & Creators
 
 ---
 
